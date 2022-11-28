@@ -1,0 +1,28 @@
+.profile__button {
+   background-color: Transparent;
+   background-image: url(../../../image/profileStikButton.svg);
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+
+   border: 2px solid #FFFFFF;
+   min-width: 24px;
+   height: 24px;
+   cursor: pointer;
+   position: absolute;
+   right: 0;
+   top: 33px;
+}
+
+.profile__button:hover {
+   opacity: 0.6;
+   transition: 0.5s;
+}
+
+@media screen and (max-width: 750px) {
+   .profile__button {
+      min-width: 18px;
+      height: 18px;
+      top: 154px;
+      right: 20px;
+   }
+}
