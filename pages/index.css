@@ -10,22 +10,24 @@
 
 /***************************profile***************************/
 @import url(../blocks/profile/profile.css);
-@import url(../blocks/profile/__container/profile__container.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
 @import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__wrapper/profile__wrapper.css);
 @import url(../blocks/profile/__title/profile__title.css);
 @import url(../blocks/profile/__subtitle/profile__subtitle.css);
 @import url(../blocks/profile/__button/profile__button.css);
 @import url(../blocks/profile/__addbutton/profile__addbutton.css);
 
-/***************************elements / element***************************/
+/***************************elements***************************/
 @import url(../blocks/elements/elements.css);
 
-@import url(../blocks/elements/element/element.css);
-@import url(../blocks/elements/element/__image/element__image.css);
-@import url(../blocks/elements/element/__container/element__container.css);
-@import url(../blocks/elements/element/__title/element__title.css);
-@import url(../blocks/elements/element/_like/element__like.css);
+/***************************element***************************/
+@import url(../blocks/element/element.css);
+@import url(../blocks/element/__image/element__image.css);
+@import url(../blocks/element/__container/element__container.css);
+@import url(../blocks/element/__title/element__title.css);
+@import url(../blocks/element/__like/element__like.css);
+@import url(../blocks/element/__like_activ/element__like_activ.css);
 
 /***************************popup***************************/
 @import url(../blocks/popup/popup.css);
@@ -33,10 +35,9 @@
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/__title/popup__title.css);
-@import url(../blocks/popup/__label/popup__label.css);
 @import url(../blocks/popup/__input/popup__input.css);
 @import url(../blocks/popup/__button/popup__button.css);
 
 /***************************footer***************************/
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/_text/footer__text.css);
+@import url(../blocks/footer/__text/footer__text.css);

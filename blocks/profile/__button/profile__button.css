@@ -8,9 +8,6 @@
    min-width: 24px;
    height: 24px;
    cursor: pointer;
-   position: absolute;
-   right: 0;
-   top: 33px;
 }
 
 .profile__button:hover {

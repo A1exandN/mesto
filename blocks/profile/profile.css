@@ -1,20 +1,12 @@
 .profile {
    display: flex;
-   justify-content: space-between;
    margin: 40px 0 50px;
    align-items: center;
-
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 619px) {
    .profile {
-      flex-wrap: wrap;
+      flex-direction: column;
       margin: 40px 0 36px;
-   }
-}
-
-@media screen and (max-width: 320px) {
-   .profile {
-      flex-wrap: wrap;
    }
 }
